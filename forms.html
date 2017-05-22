@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>New Patient Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous">
+  </script>
+	<script type="text/javascript" src="forms.js" ></script>
+
+</head>
+<body>
+	<header id="page-header">
+			<div id="wrapper">
+				<div class="header-number">
+					<h3>Call now! 617-990-2150</h2>
+				</div>
+				<nav>
+					<ul class="ul1">
+						<li><a class="title" href="index1.html">Dr. Michael J. Lowney</a></li>
+						<li><a href="services.html">Services</a></li>
+						
+						<li><a href="forms.html">New Patient Form</a></li>
+						<li><a href="providers.html">Insurance</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	<section>
+		<div class="form-header">
+			<h2>New Patient Form</h2>
+			<p>If you are interested in becooming a patient of the doctor please take the time to fill out out form and our office will get back to you as soon as possible!</p>
+		</div>
+
+	</section>
+
+	<section>
+
+		<div class="form-holder">
+			<fieldset>
+
+			<form action="mailto:sarahlowney7@gmail.com?subject=New%20Patient" method="post" enctype="text/plain" id="emailform">
+				<div class="form-row">
+					<div class="form-row-leftside">
+						First name:
+						<input class="form-input" type="text" name="firstname" id="firstname" value="" placeholder="John">
+						
+					</div>
+					<div class="form-row-rightside">
+						Last name:
+						<input class="form-input" type="text" name="lastname" id="lastname" value="" placeholder="Smith">
+					
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-row-leftside">
+						Phone Number:<br>
+						<input class="form-input" type="text" name="phonenumber" id="phonenumber" value="" placeholder="i.e. xxx-xxx-xxxx">
+						
+					</div>
+					<div class="form-row-rightside">
+				
+					
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-row-leftside">
+						Email:<br>
+						<input class="form-input" type="text" name="email" id="email" value="" placeholder="john@example.com">
+					
+					</div>
+					<div class="form-row-rightside">
+				
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-row-leftside full">
+						Message:<br>
+						<textarea class="form-input" name="message" id="message" value="" placeholder="Please leave a brief message!"></textarea>
+					
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-row-leftside">
+						
+						<input type="submit" value="Submit" onclick="redirect();" id="submit">
+					</div>
+
+				</div>
+
+			
+			</form>
+			</fieldset>
+	</div>
+	</section>
+
+
+</body>
+</html>
